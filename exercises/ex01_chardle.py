@@ -1,6 +1,6 @@
 """EX01 - Chardle - A cute step toward Wordle."""
 
-_author_ = "730468655"
+__author__ = "730468655"
 
 frequency = 0
 
@@ -32,10 +32,12 @@ if nerves == clever[4]:
 if frequency == 0:
     print("No instances of " + nerves + " found in " + clever)
 if frequency == 1:
-    print("1 instances of " + nerves + " found in " + clever)
+    print("1 instance of " + nerves + " found in " + clever)
 if frequency == 2:
     print("2 instances of " + nerves + " found in " + clever)
 if frequency == 3:
     print("3 instances of " + nerves + " found in " + clever)
 if frequency == 4:
     print("4 instances of " + nerves + " found in " + clever)
+if frequency == 5:
+    print("5 instances of " + nerves + " found in " + clever)
