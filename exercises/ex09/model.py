@@ -56,7 +56,7 @@ class Model:
     def __init__(self, cells: int, speed: float):
         """Initialize the cells with random locations and directions."""
         self.population = []
-    
+   
     def tick(self) -> None:
         """Update the state of the simulation by one time step."""
         self.time += 1
